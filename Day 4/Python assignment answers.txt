@@ -1,0 +1,47 @@
+Ques. 2] 
+
+i=0
+def change(i):
+    i=i+1
+    return i
+change(1)
+print(i)
+
+Ans.] Output will be (c) 0
+
+Ques. 3]
+
+def a(b):
+    b = b + [5]
+c = [1, 2, 3, 4]
+a(c)
+print(len(c))
+
+Ans.] Output will be 4
+
+Ques. 4]
+
+a=10
+b=20
+def change():
+    global b
+    a=45
+    b=56
+change()
+print(a)
+print(b)
+
+Ans.] Output will be (a)
+
+10
+56
+
+Ques 5]
+
+def change(i = 1, j = 2):
+    i = i + j
+    j = j + 1
+    print(i, j)
+change(j = 1, i = 2)
+
+Ans.] Output will be (d) 3 2
